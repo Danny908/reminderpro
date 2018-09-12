@@ -1,0 +1,62 @@
+.title {
+  text-align: center;
+}
+.data {
+  display:  flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+input:first-child {
+  margin-bottom: 10px;
+}
+.list-wrapper {
+  width: 100%;
+  display:  flex;
+  align-content: center;
+  justify-content: center;
+}
+.list-wrapper > ul{
+  width: 33%;
+  padding: 10px;
+}
+.form-control {
+  width: 330px;
+  height: 40px;
+  margin-right: 10px;
+}
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-item {
+  font-weight: bolder;
+}
+.list-item > span {
+  margin: 10px;
+}
+.delete-button {
+  color: red;
+  cursor: pointer;
+}
+.complete-button {
+  color: rgb(1, 201, 1);
+  cursor: pointer;
+}
+
+.alert-primary {
+  background-color: #CDE5FE
+}
+.alert-danger {
+  background-color: #F7D7DA
+}
+.alert-success {
+  background-color: #D5EDDB
+}
+.alert-danger > .list-item > span.complete-button{
+  display: none;
+}
+.alert-success > .list-item > span.complete-button{
+  display: none;
+}
